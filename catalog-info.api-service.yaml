@@ -1,4 +1,4 @@
-schemaVersion: backstage.io/v1alpha1
+apiVersion: 0.1.0
 kind: Component
 metadata:
   name: api-service # Consistent, canonical name for this component. eg. artifact-id for maven modules
