@@ -22,4 +22,4 @@ spec:
 #    - helping-team
 #    - another-helping-team
 #    - a-helping-user
-  system: catalog-service-federation # Analog for Federation
+  federation: catalog-service-federation # Analog for Federation
