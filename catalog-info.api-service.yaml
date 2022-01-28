@@ -1,0 +1,25 @@
+schemaVersion: 0.1.0
+kind: Component
+metadata:
+  name: api-service # Consistent, canonical name for this component. eg. artifact-id for maven modules
+  description: Amazing api-service
+#  labels:
+#    example.com/custom: custom_label_value
+#  annotations:
+#    example.com/service-discovery: artistweb
+#    circleci.com/project-slug: github/example-org/artist-website
+#  tags:
+#    - java
+#  links:
+#    - url: https://admin.example-org.com
+#      title: Admin Dashboard
+#      icon: dashboard
+spec:
+  type: service # service | library
+  lifecycle: production # experimental | production | deprecated
+  owner: my-team # Consistent, canonical team name who ultimately is responsible for this service.
+#  maintainers: # An optional list of maintaining teams and users with permissions to collaborate on and operate this service.
+#    - helping-team
+#    - another-helping-team
+#    - a-helping-user
+  system: catalog-service-federation # Analog for Federation
